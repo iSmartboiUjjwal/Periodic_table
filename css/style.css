@@ -1,7 +1,10 @@
 body {
-  background: linear-gradient(135deg, rgba(0, 150, 255, 0.3), rgba(0, 50, 150, 0.3));
+  background: rgba(0, 0, 0, 0.5);
   text-shadow: 0 0 0.4vw currentColor;
   overflow: hidden;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: white;
 }
 /* .glass {
   background: rgba(255, 255, 255, 0.1);
